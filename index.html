@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My Favorite Numbers</title>
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="scripts/script.js"></script>
+    </head>
+    <body>
+        <article>
+	        <header>My Favorite Numbers</header>
+
+	        <blockquote cite="http://en.wikiquote.org/wiki/Bertrand_Russell">
+		        "...mathematics may be defined as the subject in which we never know what we are talking about, nor whether what we are saying is true."  -Bertrand Russel
+	        </blockquote>
+
+            <dl>
+                <dt>Integer</dt>
+                    <dd>A whole number, either positive or negative.</dd>
+                <dt>Rational Number</dt>
+                    <dd>A number that can be written as a fraction.</dd>
+                <dt>Irrational Number</dt>
+                    <dd>A number that cannot be written as a fraction.</dd>
+                <dt>Complex Number</dt>
+                    <dd>The root of a negative number.</dd>
+                <dt>Fibonacci Sequence</dt>
+                    <dd>A sequence of numbers, where each number is the sum of the previous two.</dd>
+                <dt>Sudoku</dt>
+                    <dd>A Japanese number game.  It looks really <q>fun.</q></dd>
+            </dl>
+
+	        <nav>
+	          <ul>
+	            <li><a href="#integer">Integer</a></li>
+	            <li><a href="#rational">Rational</a></li>
+	            <li><a href="#irrational">Irrational</a></li>
+	            <li><a href="#complex">Complex</a></li>
+	            <li><a href="#fibonacci">Fibonacci Sequence</a></li>
+	            <li><a href="#sudoku">Sudoku</a></li>
+	          </ul>
+	        </nav>
+            <section>
+		        <h1 id="integer">Integers</h1>
+
+		        <h2>ZERO</h2>
+		        <p>What a <em>mysterious</em> number.  Nobody even knows what happens when it divides other numbers.</p>
+
+		        <h3>Twelve</h3>
+		        <p>Plays well with others.  It can be divided by <code>1, 2, 3, 4, 6, and 12</code>!  That's <strong>six</strong> factors!</p>
+            </section>
+
+            <section>
+		        <h1 id="rational">Rational Numbers</h1>
+
+		        <h4>0.33333333333333333333333333</h4>
+		        <p>Will it ever become <sup>1</sup>/3?  Maybe, if you're patient.</p>
+	        </section>
+
+            <section>
+		        <h1 id="irrational">Irrational Numbers</h1>
+
+		        <h6>pi</h6>
+		        <p>It can't be written as a fraction, but it's pretty close to 22/7. Yum</p>
+		        <img src="http://www.geek.com/wp-content/uploads/2012/03/Pi_pie2.jpg" alt="PIE!">
+		        <cite>Pie</cite>
+	        </section>
+	        <br>
+            
+            <section>
+		        <h1 id="complex">Complex Numbers</h1>
+		        <h5>i</h5>
+		        <p>It might be imaginary, but I didn't make it up!  Try explaining this one to a middle-schooler.  They probably won't believe you.</p>
+            </section>
+
+            <hr>
+            
+
+	        <aside><h2 id="fibonacci">The Fibonacci Sequence</h2></aside>
+	        <ol>
+	            <li>1</li>
+	            <li>1</li>
+	            <li>2</li>
+	            <li>3</li>
+	            <li>5</li>
+	            <li><del>7</del><ins>8</ins></li>
+	        </ol>
+	        <br>
+ 
+
+            <h2 id="sudoku">A game of Sudoku</h2>
+                <table border="1">
+                    <caption><span>Part of a game of Sudoku.</span></caption>
+                    <colgroup>
+                        <col span="3" style="background-color:gray">
+                    </colgroup>
+					<thead>
+					
+                    <tr>
+                        <th>Column 1</th><th>Column 2</th><th>Column 3</th>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td>6</td><td>4</td><td>5</td>
+                    </tr>
+                    <tr>
+                        <td>1</td><td>2</td><td>7</td>
+                    </tr>
+                    <tfoot>
+                    <tr>
+                        <td>8</td><td>9</td><td>3</td>
+                    </tr>
+                    </tfoot>
+
+                    
+                </table>
+            <footer> <abbr>OMG</abbr> Numbers are way cool!</footer>
+        </article>
+
+        <hr>
+
+        <form action="demo_form.asp">
+	        <fieldset>
+	            <label for="name">Name</label>
+	            <input type="text" name="fname" id="name"><br>
+	           
+	            
+	            <textarea rows="4" cols="50">
+	                Tell me about YOUR favorite numbers.
+	            </textarea>
+	            <br>
+	            <label for="eo">Even or Odd?</label>
+	            <select id="eo">
+	                <option value="Even">Even</option>
+	                <option value="Odd">Odd</option>
+	            </select>
+	        </fieldset>
+            <button type="button">Submit</button>
+        </form>
+
+
+    <address>Made by <pre>  Raphael   Serota  </pre>at RefactorU, about <time>12:30</time>.</address>
+    </body>
+</html>
